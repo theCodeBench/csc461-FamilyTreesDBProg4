@@ -1,0 +1,33 @@
+(name gender (parents) (children))
+
+(ian male (bob lisa) ())
+(alex male (bob lisa) ())
+(bob male (robert nancy rosemary) (ian alex))
+(lisa female (douglas yvonne) (ian alex))
+
+(robert male () (bob leah kristen))
+(nancy female () (bob leah kristen))
+(rosemary female () (bob leah kristen))
+
+(leah female (robert nancy rosemary) (kaley coby crosby))
+(tim male () (kaley coby crosby))
+(kaley female (tim leah) ())
+(coby male (tim leah) ())
+(crosby male (tim leah) ())
+
+(kristen female (robert nancy rosemary) (kati nathan))
+(paul male () (kati nathan))
+(kati female (paul kristen) ())
+(nathan male (paul kristen) ())
+
+(douglas male () (lisa glenda))
+(yvonne female () (lisa glenda))
+
+(glenda female (douglas yvonne) (doug desaray))
+(ray male () (doug desaray))
+
+(desaray female (ray glenda) (evelyn emily))
+
+(doug male (ray glenda) (nicholas bailey))
+(nicholas male (doug) ())
+(bailey female (doug) ())
